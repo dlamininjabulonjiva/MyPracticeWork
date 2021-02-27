@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyAnimal
+namespace MyInheritanceProject
 {
   public class AnimalInheritance
   {

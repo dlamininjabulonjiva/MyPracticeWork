@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
-      "projectName": "MyAnimal",
-      "projectPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
+      "projectUniqueName": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyInheritanceProject.csproj",
+      "projectName": "MyInheritanceProject",
+      "projectPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyInheritanceProject.csproj",
       "packagesPath": "C:\\Users\\njabulo\\.nuget\\packages\\",
       "outputPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\obj\\",
       "projectStyle": "PackageReference",
