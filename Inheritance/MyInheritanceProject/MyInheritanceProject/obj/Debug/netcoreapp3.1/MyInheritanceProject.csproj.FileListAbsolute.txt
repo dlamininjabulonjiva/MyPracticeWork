@@ -1,0 +1,13 @@
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.exe
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.deps.json
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.runtimeconfig.json
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.runtimeconfig.dev.json
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.dll
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\bin\Debug\netcoreapp3.1\MyInheritanceProject.pdb
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.csprojAssemblyReference.cache
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.AssemblyInfoInputs.cache
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.AssemblyInfo.cs
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.csproj.CoreCompileInputs.cache
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.dll
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.pdb
+C:\Development\MyRepository\MyPracticeWork\Inheritance\MyInheritanceProject\MyInheritanceProject\obj\Debug\netcoreapp3.1\MyInheritanceProject.genruntimeconfig.cache
