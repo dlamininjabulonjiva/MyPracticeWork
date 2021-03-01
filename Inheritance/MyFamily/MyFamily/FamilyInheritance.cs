@@ -29,7 +29,7 @@ namespace MyFamily
 
     private static GrandChild GrandChildInformation()
     {
-      var grandChild = new GrandChild {GrandChildName = "Elvin", GrandChildAge = 3, GrandChildGender = "Male"};
+      var grandChild = new GrandChild {GrandChildName = "Elvin", GrandChildAge = 8, GrandChildGender = "Male"};
       return grandChild;
     }
 
@@ -39,7 +39,7 @@ namespace MyFamily
       {
         ChildOneName = "Dwayne",
         Surname = "Bravo",
-        ChildOneAge = 25,
+        ChildOneAge = 30,
         ChildOneGender = "Male",
         SkinColor = "Black",
         BloodType = "O",
@@ -54,8 +54,9 @@ namespace MyFamily
       {
         ChildTwoName = "Susan",
         Surname = "Bravo",
-        ChildTwoAge = 20,
+        ChildTwoAge = 27,
         ChildTwoGender = "Female",
+        Illness = "Diabetes",
         SkinColor = "Black",
         BloodType = "O",
         Personality = "Openness"
@@ -103,6 +104,7 @@ namespace MyFamily
       public string ChildTwoName;
       public int ChildTwoAge;
       public string ChildTwoGender;
+      public string Illness;
 
       public void PrintChildTwo()
       {
@@ -110,6 +112,7 @@ namespace MyFamily
         PrintParent();
         Console.WriteLine("Gender: " + ChildTwoGender);
         Console.WriteLine("Age: " + ChildTwoAge);
+        Console.WriteLine("Illness: " + Illness);
         //child 2 has a new personality
         Personality = "Agreeableness";
       }
@@ -128,6 +131,7 @@ namespace MyFamily
         BloodType = "A";
         SkinColor = "Black";
         Personality = "Agreeableness";
+        Illness = "Diabetes";
 
         Console.WriteLine("Name: " + GrandChildName);
         Console.WriteLine("Surname: " + Surname);
@@ -136,6 +140,7 @@ namespace MyFamily
         Console.WriteLine("Personality: " + Personality);
         Console.WriteLine("Gender: " + GrandChildGender);
         Console.WriteLine("Age: " + GrandChildAge);
+        Console.WriteLine("Illness: " + Illness);
       }
     }
   }
