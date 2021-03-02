@@ -8,6 +8,55 @@ namespace MyAnimal
     {
       //instantiate derived classes
       Console.WriteLine("Information on my Snake");
+      var mySnake = MySnakeInformation();
+      mySnake.PrintAnimalInfo();
+      mySnake.Sound();
+
+      Console.WriteLine();
+
+      Console.WriteLine("Information on my Cat1");
+      var myCat1 = MyCat1Information();
+      myCat1.PrintAnimalInfo();
+      myCat1.Meow();
+      Console.WriteLine("My Cat 1 new color is: " + myCat1.Color);
+
+      Console.WriteLine();
+
+      Console.WriteLine("Information on my Cat2");
+      var myCat2 = MyCat2Information();
+      myCat2.PrintAnimalInfo();
+      myCat2.Meow();
+      Console.WriteLine("My Cat 2 new color is: " + myCat2.Color);
+
+      Console.ReadKey();
+    }
+
+    private static Cat2 MyCat2Information()
+    {
+      var myCat2 = new Cat2
+      {
+        Name = "Tito",
+        Danger = "Not dangerous at all",
+        Color = "White grey",
+        Cuteness = "Very Ugly"
+      };
+      return myCat2;
+    }
+
+    private static Cat MyCat1Information()
+    {
+      var myCat1 = new Cat
+      {
+        Name = "Roman",
+        Danger = "Not dangerous at all",
+        Color = "White grey",
+        Cuteness = "Very Cute"
+      };
+      return myCat1;
+    }
+
+    private static Snake MySnakeInformation()
+    {
       var mySnake = new Snake
       {
         Name = "Ana",
@@ -15,24 +64,7 @@ namespace MyAnimal
         Color = "Black",
         Type = "Anaconda"
       };
-      mySnake.PrintAnimalInfo();
-      mySnake.Sound();
-
-      Console.WriteLine();
-
-      Console.WriteLine("Information on my Cat");
-      var myCat = new Cat
-      {
-        Name = "Roman",
-        Danger = "Not dangerous at all",
-        Color = "White grey",
-        Cuteness = "Very Cute"
-      };
-      myCat.PrintAnimalInfo();
-      myCat.Meow();
-      Console.WriteLine("My Cat's new color is: " + myCat.Color);
-
-      Console.ReadKey();
+      return mySnake;
     }
 
     //base class
@@ -66,11 +98,22 @@ namespace MyAnimal
     {
       public string Cuteness;
 
-      public void Meow()
+      public virtual void Meow()
       {
         Console.WriteLine("Sound: Meow and the cuteness(" + Cuteness + ")");
         //giving my cat a new color
         Color = "Black";
+      }
+    }
+    
+    //inheriting from derived class
+    public class Cat2 : Cat
+    {
+      public override void Meow()
+      {
+        Console.WriteLine("Sound: Meow Meow and the cuteness(" + Cuteness + ")");
+        //giving my cat a new color
+        Color = "Blue";
       }
     }
   }
