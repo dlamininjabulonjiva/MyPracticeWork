@@ -17,7 +17,8 @@ namespace MyAnimal
       Console.WriteLine("Information on my Cat1");
       var myCat1 = MyCat1Information();
       myCat1.PrintAnimalInfo();
-      myCat1.Meow();
+      myCat1.Sound();
+      myCat1.Move();
       Console.WriteLine("My Cat 1 new color is: " + myCat1.Color);
 
       Console.WriteLine();
@@ -25,7 +26,8 @@ namespace MyAnimal
       Console.WriteLine("Information on my Cat2");
       var myCat2 = MyCat2Information();
       myCat2.PrintAnimalInfo();
-      myCat2.Meow();
+      myCat2.Sound();
+      myCat2.Move();
       Console.WriteLine("My Cat 2 new color is: " + myCat2.Color);
 
       Console.ReadKey();
@@ -68,7 +70,7 @@ namespace MyAnimal
     }
 
     //base class
-    public class Animal
+    public abstract class Animal
     {
       public string Name;
       public string Danger;
@@ -80,6 +82,8 @@ namespace MyAnimal
         Console.WriteLine("Danger: " + Danger);
         Console.WriteLine("Color: " + Color);
       }
+
+      public abstract void Sound();
     }
 
     //derived class
@@ -87,7 +91,7 @@ namespace MyAnimal
     {
       public string Type;
 
-      public void Sound()
+      public override void Sound()
       {
         Console.WriteLine("Sound: Hissing and type of snake(" + Type + ")");
       }
@@ -98,22 +102,32 @@ namespace MyAnimal
     {
       public string Cuteness;
 
-      public virtual void Meow()
+      public override void Sound()
       {
         Console.WriteLine("Sound: Meow and the cuteness(" + Cuteness + ")");
         //giving my cat a new color
         Color = "Black";
+      } 
+      
+      public virtual void Move()
+      {
+        Console.WriteLine("Creep silently");
       }
     }
     
     //inheriting from derived class
     public class Cat2 : Cat
     {
-      public override void Meow()
+      public override void Sound()
       {
         Console.WriteLine("Sound: Meow Meow and the cuteness(" + Cuteness + ")");
         //giving my cat a new color
         Color = "Blue";
+      }
+
+      public override void Move()
+      {
+        Console.WriteLine("Leaps into the air");
       }
     }
   }
