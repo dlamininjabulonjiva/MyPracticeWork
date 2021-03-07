@@ -31,7 +31,7 @@ namespace MyBankAccount
         throw new InvalidOperationException("Amount is greater than your balance");
       }
 
-      _balance -= amount;
+      DebitAccount(amount);
     }
 
     public void Credit(double amount)
@@ -41,6 +41,16 @@ namespace MyBankAccount
         throw new InvalidOperationException("Amount provided is less than 0");
       }
 
+      CreditAccount(amount);
+    }
+
+    private void DebitAccount(double amount)
+    {
+      _balance -= amount;
+    }
+
+    private void CreditAccount(double amount)
+    {
       _balance += amount;
     }
   }
