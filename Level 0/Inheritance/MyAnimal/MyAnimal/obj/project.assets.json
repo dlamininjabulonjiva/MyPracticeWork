@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
+      "projectUniqueName": "C:\\Development\\MyRepository\\MyPracticeWork\\Level 0\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
       "projectName": "MyAnimal",
-      "projectPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
+      "projectPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Level 0\\Inheritance\\MyAnimal\\MyAnimal\\MyAnimal.csproj",
       "packagesPath": "C:\\Users\\njabulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Inheritance\\MyAnimal\\MyAnimal\\obj\\",
+      "outputPath": "C:\\Development\\MyRepository\\MyPracticeWork\\Level 0\\Inheritance\\MyAnimal\\MyAnimal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
